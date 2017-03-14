@@ -36,6 +36,6 @@ var dataTypes = [null, undefined, 16, "Whatever", ["Array", 3, "AnotherOne"], {d
 var dog = {
   name: "Spot",
   bark: function(){
-    return dog.name + "is barking so much!!!!";
+    console.log(dog.name + "is barking so much!!!!");
   }
 };
