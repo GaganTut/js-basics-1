@@ -33,3 +33,9 @@ var dataTypes = [null, undefined, 16, "Whatever", ["Array", 3, "AnotherOne"], {d
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+var dog = {
+  name: "Spot",
+  bark: function(){
+    return dog.name + "is barking so much!!!!";
+  }
+};
